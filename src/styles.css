@@ -1,0 +1,168 @@
+* {
+  color: black;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  color: black;
+}
+body {
+  background-color: #f7d794;
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+  color: black;
+}
+.menu {
+  width: 220px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ff7f50;
+  text-decoration: none;
+  color: black;
+}
+.menu-item {
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 210px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+.menu-item:hover {
+  color: #2980b9;
+}
+.side {
+  width: 220px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  border-left: 1px solid rgb(187, 187, 187);
+  background-color: #ff7f50;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.item {
+  font-size: 15px;
+}
+.nav {
+  background-color: #ff6348;
+  border-bottom: 1px solid rgb(187, 187, 187);
+  height: 80px;
+}
+.image {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.part {
+  display: flex;
+  position: relative;
+  margin-left: 45%;
+  margin-top: -600px;
+  text-align: center;
+  margin-right: 150px;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  background-color: #ff7f50;
+  border-radius: 70px;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+.create {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.create input,
+.create textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  resize: none;
+}
+.create button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #ff7f50;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+.paragraph {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.about {
+  position: relative;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  font-size: 1.2em;
+  margin-left: -150px;
+}
+.welcome {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+.cardimg {
+  margin-top: -80px;
+}
+.main-div {
+  margin-left: -15%;
+}
+.cale {
+  border-radius: 10px;
+}
+.me {
+  text-decoration: underline;
+}
